@@ -10,6 +10,8 @@ This is a simple spam classifier application built using Streamlit, NLTK, and a 
 
 3. **vectorizer.pkl**: This file contains the pickled vectorizer used to transform input text data into a format suitable for the machine learning model. It is loaded in the `app.py` file for preprocessing user-inputted messages.
 
+4.**spam.csv**: This file contains the dataset used to create the machine learning model.
+
 ## Text Preprocessing
 The application performs text preprocessing on the user-inputted message before making predictions. The `stemming` function in `app.py` is responsible for converting the input text into a format suitable for the machine learning model. It involves removing non-alphabetic characters, converting to lowercase, tokenization, stemming, and removing English stopwords.
 
