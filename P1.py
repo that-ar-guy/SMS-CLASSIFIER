@@ -1,8 +1,10 @@
 import streamlit as st
 import pickle
 import re
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+nltk.download('stopwords')
 
 # Load the pickled model and vectorizer
 port_stem = PorterStemmer()
