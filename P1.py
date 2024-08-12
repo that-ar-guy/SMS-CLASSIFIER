@@ -57,7 +57,7 @@ if st.button('Classify'):
                 st.success('Not Spam :white_check_mark:')
     else:
         st.warning('Please enter a message.')
-print(st.__version__)
+
 # Adding a footer
 st.sidebar.title("Connect with Me")
 st.sidebar.info(
