@@ -30,7 +30,7 @@ smmap==5.0.1
 tenacity==8.5.0
 threadpoolctl==3.5.0
 toml==0.10.2
-tornado==6.4.1
+tornado==6.4.2
 tqdm==4.66.5
 typing_extensions==4.12.2
 tzdata==2024.1
