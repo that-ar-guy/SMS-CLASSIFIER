@@ -18,7 +18,7 @@ nltk
 packaging==24.1
 pickle-mixin==1.0.2
 pillow==10.4.0
-protobuf==5.27.3
+protobuf==5.29.5
 Pygments==2.18.0
 pytz==2024.1
 regex==2024.7.24
